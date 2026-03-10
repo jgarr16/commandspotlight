@@ -585,7 +585,7 @@
   },
   {
     "category": "Utility",
-    "action": "Open Shortcut Finder app",
+    "action": "Open CommandSpotlight",
     "keysRaw": "Cmd+Ctrl+K",
     "win": "Cmd+Ctrl+K",
     "mac": "Cmd+Ctrl+K",

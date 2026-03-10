@@ -1,5 +1,5 @@
 {
-  "name": "shortcut-app",
+  "name": "commandspotlight",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -10,8 +10,8 @@
     "build:win": "electron-builder --win"
   },
   "build": {
-    "appId": "com.shortcutfinder.app",
-    "productName": "Shortcut Finder",
+    "appId": "com.commandspotlight.app",
+    "productName": "CommandSpotlight",
     "mac": {
       "category": "public.app-category.utilities",
       "target": [

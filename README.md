@@ -1,4 +1,4 @@
-# Gemini CLI Test Project
+# CommandSpotlight (and Tiny Web API)
 
 This repository contains two distinct projects created interactively using the Gemini CLI. It serves as a demonstration of scaffolding back-end APIs and building cross-platform desktop applications using AI assistance directly from the terminal.
 
@@ -29,9 +29,9 @@ Located in the root directory, this is a lightweight Node.js/Express API that de
 
 ---
 
-## Project 2: Shortcut Finder (Electron App)
+## Project 2: CommandSpotlight (Electron App)
 
-Located in the `shortcut-app/` directory, this is a cross-platform (macOS/Windows) desktop application built with Electron. It functions as a lightweight, Spotlight-like utility for discovering and memorizing keyboard shortcuts.
+Located in the `commandspotlight/` directory, this is a cross-platform (macOS/Windows) desktop application built with Electron. It functions as a lightweight, Spotlight-like utility for discovering and memorizing keyboard shortcuts.
 
 ### Features
 *   **Global Hotkey Invocation:** Summon the app over any window using `Cmd + Ctrl + K`.
@@ -44,7 +44,7 @@ Located in the `shortcut-app/` directory, this is a cross-platform (macOS/Window
 ### How to Run
 1. Navigate to the app directory:
    ```bash
-   cd shortcut-app
+   cd commandspotlight
    ```
 2. Install dependencies:
    ```bash
@@ -58,7 +58,7 @@ Located in the `shortcut-app/` directory, this is a cross-platform (macOS/Window
 ### How to Build (macOS)
 To compile the application into a standalone, distributable macOS `.dmg` file:
 ```bash
-cd shortcut-app
+cd commandspotlight
 npm run build:mac
 ```
-The output file will be generated in `shortcut-app/dist/`.
+The output file will be generated in `commandspotlight/dist/`.
