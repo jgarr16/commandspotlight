@@ -62,3 +62,18 @@ cd commandspotlight
 npm run build:mac
 ```
 The output file will be generated in `commandspotlight/dist/`.
+
+### How to Build (Windows)
+To compile the application into a standalone Windows `.exe` installer and portable executable, you must run the build command **on a Windows machine**:
+1. Copy this repository to a Windows computer.
+2. Open a terminal (e.g., PowerShell or Command Prompt).
+3. Navigate to the app directory and install dependencies:
+   ```bash
+   cd commandspotlight
+   npm install
+   ```
+4. Run the Windows build command:
+   ```bash
+   npm run build:win
+   ```
+The output files (`.exe`) will be generated in `commandspotlight/dist/`.
