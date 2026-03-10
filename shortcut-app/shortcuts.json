@@ -1,0 +1,594 @@
+[
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Copy",
+    "keysRaw": "Ctrl + C (Cmd + C)",
+    "win": "Ctrl + C",
+    "mac": "Cmd + C",
+    "description": "Copies selected text or items to the clipboard."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Cut",
+    "keysRaw": "Ctrl + X (Cmd + X)",
+    "win": "Ctrl + X",
+    "mac": "Cmd + X",
+    "description": "Cuts selected text or items to the clipboard (removes them from their original location)."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Paste",
+    "keysRaw": "Ctrl + V (Cmd + V)",
+    "win": "Ctrl + V",
+    "mac": "Cmd + V",
+    "description": "Pastes content from the clipboard."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Undo",
+    "keysRaw": "Ctrl + Z (Cmd + Z)",
+    "win": "Ctrl + Z",
+    "mac": "Cmd + Z",
+    "description": "Reverses the last action. Indispensable for mistakes!"
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Redo",
+    "keysRaw": "Ctrl + Y (Cmd + Shift + Z)",
+    "win": "Ctrl + Y",
+    "mac": "Cmd + Shift + Z",
+    "description": "Reverses an Undo action (brings back what you undid)."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Select All",
+    "keysRaw": "Ctrl + A (Cmd + A)",
+    "win": "Ctrl + A",
+    "mac": "Cmd + A",
+    "description": "Selects all items or text in the current window or document."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Save",
+    "keysRaw": "Ctrl + S (Cmd + S)",
+    "win": "Ctrl + S",
+    "mac": "Cmd + S",
+    "description": "Saves the current document or file."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Open",
+    "keysRaw": "Ctrl + O (Cmd + O)",
+    "win": "Ctrl + O",
+    "mac": "Cmd + O",
+    "description": "Opens an existing document or file."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "New",
+    "keysRaw": "Ctrl + N (Cmd + N)",
+    "win": "Ctrl + N",
+    "mac": "Cmd + N",
+    "description": "Creates a new document, window, or file."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Print",
+    "keysRaw": "Ctrl + P (Cmd + P)",
+    "win": "Ctrl + P",
+    "mac": "Cmd + P",
+    "description": "Opens the print dialog for the current document."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Find",
+    "keysRaw": "Ctrl + F (Cmd + F)",
+    "win": "Ctrl + F",
+    "mac": "Cmd + F",
+    "description": "Opens a search bar to find text within the current document or page."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Close Current Window/Tab",
+    "keysRaw": "Ctrl + W (Cmd + W)",
+    "win": "Ctrl + W",
+    "mac": "Cmd + W",
+    "description": "Closes the active window or browser tab."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Close Application",
+    "keysRaw": "Alt + F4 (Cmd + Q)",
+    "win": "Alt + F4",
+    "mac": "Cmd + Q",
+    "description": "Closes the active application."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Switch Applications/Windows",
+    "keysRaw": "Alt + Tab (Cmd + Tab)",
+    "win": "Alt + Tab",
+    "mac": "Cmd + Tab",
+    "description": "Cycles through open applications. Release keys to select."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Minimize Window",
+    "keysRaw": "Win + M (Cmd + M)",
+    "win": "Win + M",
+    "mac": "Cmd + M",
+    "description": "Minimizes the active window to the taskbar/dock."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Screenshot (Full Screen)",
+    "keysRaw": "PrtSc (Print Screen key) or Win + PrtSc (Windows saves to Screenshots folder) (Cmd + Shift + 3)",
+    "win": "PrtSc",
+    "mac": "Cmd + Shift + 3",
+    "description": "Captures the entire screen."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Screenshot (Partial/Selection)",
+    "keysRaw": "Win + Shift + S (Cmd + Shift + 4)",
+    "win": "Win + Shift + S",
+    "mac": "Cmd + Shift + 4",
+    "description": "Allows you to select a specific area of the screen to capture."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Screenshot (Specific Window - Windows)",
+    "keysRaw": "Alt + PrtSc",
+    "win": "Alt + PrtSc",
+    "mac": "Alt + PrtSc",
+    "description": "Captures only the active window."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Refresh/Reload",
+    "keysRaw": "F5 or Ctrl + R (Cmd + R)",
+    "win": "F5",
+    "mac": "Cmd + R",
+    "description": "Reloads the current page or refreshes the window content."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Rename Item",
+    "keysRaw": "F2 (on selected file/folder) (Enter on selected file/folder, then type)",
+    "win": "F2",
+    "mac": "Enter",
+    "description": "Allows you to rename a selected file or folder."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Open Help",
+    "keysRaw": "F1 (Cmd + ? or Help menu)",
+    "win": "F1",
+    "mac": "Help",
+    "description": "Opens the help documentation for the current application."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Toggle Full Screen",
+    "keysRaw": "F11 (Cmd + Ctrl + F)",
+    "win": "F11",
+    "mac": "Cmd + Ctrl + F",
+    "description": "Makes the active window go full screen or exit full screen."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Lock Screen",
+    "keysRaw": "Win + L (Cmd + Ctrl + Q)",
+    "win": "Win + L",
+    "mac": "Cmd + Ctrl + Q",
+    "description": "Locks your computer, requiring a password to unlock."
+  },
+  {
+    "category": "I. General (Across Most Applications)",
+    "action": "Open Task Manager (Windows) / Force Quit (macOS)",
+    "keysRaw": "Ctrl + Shift + Esc or Ctrl + Alt + Del (Cmd + Option + Esc)",
+    "win": "Ctrl + Shift + Esc",
+    "mac": "Cmd + Option + Esc",
+    "description": "Opens Task Manager (Windows) to manage processes or Force Quit Applications (macOS)."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Bold",
+    "keysRaw": "Ctrl + B (Cmd + B)",
+    "win": "Ctrl + B",
+    "mac": "Cmd + B",
+    "description": "Applies or removes bold formatting."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Italic",
+    "keysRaw": "Ctrl + I (Cmd + I)",
+    "win": "Ctrl + I",
+    "mac": "Cmd + I",
+    "description": "Applies or removes italic formatting."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Underline",
+    "keysRaw": "Ctrl + U (Cmd + U)",
+    "win": "Ctrl + U",
+    "mac": "Cmd + U",
+    "description": "Applies or removes underline formatting."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Move Cursor One Word Left/Right",
+    "keysRaw": "Ctrl + Left/Right Arrow (Option + Left/Right Arrow)",
+    "win": "Ctrl + Left/Right Arrow",
+    "mac": "Option + Left/Right Arrow",
+    "description": "Moves the cursor a whole word at a time."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Select One Word Left/Right",
+    "keysRaw": "Ctrl + Shift + Left/Right Arrow (Option + Shift + Left/Right Arrow)",
+    "win": "Ctrl + Shift + Left/Right Arrow",
+    "mac": "Option + Shift + Left/Right Arrow",
+    "description": "Selects text one word at a time."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Move Cursor to Beginning/End of Line",
+    "keysRaw": "Home / End (Cmd + Left/Right Arrow)",
+    "win": "Home",
+    "mac": "Cmd + Left/Right Arrow",
+    "description": "Moves the cursor instantly to the start or end of the current line."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Select to Beginning/End of Line",
+    "keysRaw": "Shift + Home / Shift + End (Cmd + Shift + Left/Right Arrow)",
+    "win": "Shift + Home",
+    "mac": "Cmd + Shift + Left/Right Arrow",
+    "description": "Selects text from the cursor to the beginning or end of the line."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Move Cursor to Beginning/End of Document",
+    "keysRaw": "Ctrl + Home / Ctrl + End (Cmd + Up/Down Arrow)",
+    "win": "Ctrl + Home",
+    "mac": "Cmd + Up/Down Arrow",
+    "description": "Moves the cursor to the absolute beginning or end of the document."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Select to Beginning/End of Document",
+    "keysRaw": "Ctrl + Shift + Home / Ctrl + Shift + End (Cmd + Shift + Up/Down Arrow)",
+    "win": "Ctrl + Shift + Home",
+    "mac": "Cmd + Shift + Up/Down Arrow",
+    "description": "Selects text from the cursor to the beginning or end of the document."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Delete One Word Left",
+    "keysRaw": "Ctrl + Backspace (Option + Delete)",
+    "win": "Ctrl + Backspace",
+    "mac": "Option + Delete",
+    "description": "Deletes the entire word to the left of the cursor."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Delete One Word Right",
+    "keysRaw": "Ctrl + Delete (Option + Fn + Delete or Ctrl + D in some apps)",
+    "win": "Ctrl + Delete",
+    "mac": "Ctrl + D",
+    "description": "Deletes the entire word to the right of the cursor."
+  },
+  {
+    "category": "II. Text Editing & Navigation",
+    "action": "Page Up/Down",
+    "keysRaw": "Page Up / Page Down (Fn + Up/Down Arrow)",
+    "win": "Page Up",
+    "mac": "Fn + Up/Down Arrow",
+    "description": "Scrolls up or down one screen at a time."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "New Tab",
+    "keysRaw": "Ctrl + T (Cmd + T)",
+    "win": "Ctrl + T",
+    "mac": "Cmd + T",
+    "description": "Opens a new blank tab."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Reopen Last Closed Tab",
+    "keysRaw": "Ctrl + Shift + T (Cmd + Shift + T)",
+    "win": "Ctrl + Shift + T",
+    "mac": "Cmd + Shift + T",
+    "description": "Brings back the tab you just closed (can often go back multiple tabs)."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Go to Specific Tab",
+    "keysRaw": "Ctrl + 1 through 9 (Cmd + 1 through 9)",
+    "win": "Ctrl + 1",
+    "mac": "9",
+    "description": "Switches to the tab corresponding to the number (e.g., `Ctrl + 1` goes to the first tab)."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Next Tab",
+    "keysRaw": "Ctrl + Tab (Ctrl + Tab or Cmd + Option + Right Arrow)",
+    "win": "Ctrl + Tab",
+    "mac": "Cmd + Option + Right Arrow",
+    "description": "Moves to the next tab to the right."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Previous Tab",
+    "keysRaw": "Ctrl + Shift + Tab (Ctrl + Shift + Tab or Cmd + Option + Left Arrow)",
+    "win": "Ctrl + Shift + Tab",
+    "mac": "Cmd + Option + Left Arrow",
+    "description": "Moves to the previous tab to the left."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Go Back/Forward",
+    "keysRaw": "Alt + Left/Right Arrow (Cmd + Left/Right Arrow)",
+    "win": "Alt + Left/Right Arrow",
+    "mac": "Cmd + Left/Right Arrow",
+    "description": "Navigates back or forward in your browsing history."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Open Link in New Tab (Background)",
+    "keysRaw": "Ctrl + Click (Cmd + Click)",
+    "win": "Ctrl + Click",
+    "mac": "Cmd + Click",
+    "description": "Opens a link in a new tab without switching to it."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Open Link in New Tab (Foreground)",
+    "keysRaw": "Ctrl + Shift + Click (Cmd + Shift + Click)",
+    "win": "Ctrl + Shift + Click",
+    "mac": "Cmd + Shift + Click",
+    "description": "Opens a link in a new tab and immediately switches focus to it."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Zoom In/Out/Reset",
+    "keysRaw": "Ctrl + Plus/Minus/0 (Cmd + Plus/Minus/0)",
+    "win": "Ctrl + Plus",
+    "mac": "0",
+    "description": "Zooms the page in, out, or resets to 100%."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Open Downloads",
+    "keysRaw": "Ctrl + J (Cmd + Shift + J)",
+    "win": "Ctrl + J",
+    "mac": "Cmd + Shift + J",
+    "description": "Opens your browser's downloads page."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Open History",
+    "keysRaw": "Ctrl + H (Cmd + Y)",
+    "win": "Ctrl + H",
+    "mac": "Cmd + Y",
+    "description": "Opens your browser's history page."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Open Bookmarks",
+    "keysRaw": "Ctrl + D (to bookmark page) / Ctrl + Shift + B (to open bookmarks bar) (Cmd + D / Cmd + Shift + B)",
+    "win": "Ctrl + D",
+    "mac": "Cmd + Shift + B",
+    "description": "Bookmarks the current page or toggles the bookmarks bar."
+  },
+  {
+    "category": "III. Browser Specific",
+    "action": "Private/Incognito Window",
+    "keysRaw": "Ctrl + Shift + N (Cmd + Shift + N)",
+    "win": "Ctrl + Shift + N",
+    "mac": "Cmd + Shift + N",
+    "description": "Opens a new private browsing window."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "File Explorer",
+    "keysRaw": "Win + E",
+    "win": "Win + E",
+    "mac": "Win + E",
+    "description": "Opens File Explorer."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "Settings",
+    "keysRaw": "Win + I",
+    "win": "Win + I",
+    "mac": "Win + I",
+    "description": "Opens the Settings app."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "Run Dialog",
+    "keysRaw": "Win + R",
+    "win": "Win + R",
+    "mac": "Win + R",
+    "description": "Opens the Run dialog box."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "Snap Window",
+    "keysRaw": "Win + Left/Right/Up/Down Arrow",
+    "win": "Win + Left/Right/Up/Down Arrow",
+    "mac": "Win + Left/Right/Up/Down Arrow",
+    "description": "Snaps the active window to a side or corner of the screen."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "Virtual Desktop (New)",
+    "keysRaw": "Win + Ctrl + D",
+    "win": "Win + Ctrl + D",
+    "mac": "Win + Ctrl + D",
+    "description": "Creates a new virtual desktop."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "Virtual Desktop (Switch)",
+    "keysRaw": "Win + Ctrl + Left/Right Arrow",
+    "win": "Win + Ctrl + Left/Right Arrow",
+    "mac": "Win + Ctrl + Left/Right Arrow",
+    "description": "Switches between virtual desktops."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "Task View (Virtual Desktops)",
+    "keysRaw": "Win + Tab",
+    "win": "Win + Tab",
+    "mac": "Win + Tab",
+    "description": "Opens Task View, showing open windows and virtual desktops."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "Project Display",
+    "keysRaw": "Win + P",
+    "win": "Win + P",
+    "mac": "Win + P",
+    "description": "Opens the project menu to manage multiple displays."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "Action Center",
+    "keysRaw": "Win + A",
+    "win": "Win + A",
+    "mac": "Win + A",
+    "description": "Opens the Action Center for notifications and quick settings."
+  },
+  {
+    "category": "IV. Windows Specific",
+    "action": "Emoji Picker",
+    "keysRaw": "Win + . (period) or Win + ; (semicolon)",
+    "win": "Win + .",
+    "mac": "Win + ;",
+    "description": "Opens the emoji keyboard."
+  },
+  {
+    "category": "V. macOS Specific",
+    "action": "Finder (Go to Folder)",
+    "keysRaw": "Cmd + Shift + G",
+    "win": "Cmd + Shift + G",
+    "mac": "Cmd + Shift + G",
+    "description": "Opens a dialog to go directly to a folder path."
+  },
+  {
+    "category": "V. macOS Specific",
+    "action": "Hide Current Application",
+    "keysRaw": "Cmd + H",
+    "win": "Cmd + H",
+    "mac": "Cmd + H",
+    "description": "Hides the current application's windows."
+  },
+  {
+    "category": "V. macOS Specific",
+    "action": "Hide All Other Applications",
+    "keysRaw": "Cmd + Option + H",
+    "win": "Cmd + Option + H",
+    "mac": "Cmd + Option + H",
+    "description": "Hides all applications except the frontmost one."
+  },
+  {
+    "category": "V. macOS Specific",
+    "action": "Spotlight Search",
+    "keysRaw": "Cmd + Space",
+    "win": "Cmd + Space",
+    "mac": "Cmd + Space",
+    "description": "Opens Spotlight search (universal search for files, apps, definitions, etc.)."
+  },
+  {
+    "category": "V. macOS Specific",
+    "action": "Quick Look",
+    "keysRaw": "Spacebar (on a selected file)",
+    "win": "Spacebar",
+    "mac": "Spacebar",
+    "description": "Opens a preview of a selected file without opening the associated application."
+  },
+  {
+    "category": "V. macOS Specific",
+    "action": "Mission Control",
+    "keysRaw": "F3 or Control + Up Arrow",
+    "win": "F3",
+    "mac": "Control + Up Arrow",
+    "description": "Shows all open windows, desktops, and full-screen apps."
+  },
+  {
+    "category": "V. macOS Specific",
+    "action": "Show Desktop",
+    "keysRaw": "F11 or Cmd + F3",
+    "win": "F11",
+    "mac": "Cmd + F3",
+    "description": "Moves all windows aside to show the desktop."
+  },
+  {
+    "category": "V. macOS Specific",
+    "action": "Dictation",
+    "keysRaw": "Fn + Fn (double press)",
+    "win": "Fn + Fn",
+    "mac": "Fn + Fn",
+    "description": "Starts dictation (if enabled)."
+  },
+  {
+    "category": "VI. Other Useful Keys",
+    "action": "Tab",
+    "keysRaw": "Moves focus to the next interactive element (button, link, form field).",
+    "win": "Moves focus to the next interactive element (button, link, form field).",
+    "mac": "Moves focus to the next interactive element (button, link, form field).",
+    "description": ""
+  },
+  {
+    "category": "VI. Other Useful Keys",
+    "action": "Shift + Tab",
+    "keysRaw": "Moves focus to the previous interactive element.",
+    "win": "Moves focus to the previous interactive element.",
+    "mac": "Moves focus to the previous interactive element.",
+    "description": ""
+  },
+  {
+    "category": "VI. Other Useful Keys",
+    "action": "Escape (Esc)",
+    "keysRaw": "Closes menus, dialogs, cancels operations, exits full-screen mode.",
+    "win": "Closes menus, dialogs, cancels operations, exits full-screen mode.",
+    "mac": "Closes menus, dialogs, cancels operations, exits full-screen mode.",
+    "description": ""
+  },
+  {
+    "category": "VI. Other Useful Keys",
+    "action": "Home/End",
+    "keysRaw": "Navigates to the beginning/end of a line (text) or list (files).",
+    "win": "Navigates to the beginning/end of a line (text) or list (files).",
+    "mac": "Navigates to the beginning/end of a line (text) or list (files).",
+    "description": ""
+  },
+  {
+    "category": "VI. Other Useful Keys",
+    "action": "Delete",
+    "keysRaw": "Deletes selected items.",
+    "win": "Deletes selected items.",
+    "mac": "Deletes selected items.",
+    "description": ""
+  },
+  {
+    "category": "VI. Other Useful Keys",
+    "action": "Backspace",
+    "keysRaw": "Deletes characters to the left of the cursor (text) or goes back in a file explorer/browser.",
+    "win": "Deletes characters to the left of the cursor (text) or goes back in a file explorer/browser.",
+    "mac": "Deletes characters to the left of the cursor (text) or goes back in a file explorer/browser.",
+    "description": ""
+  },
+  {
+    "category": "Utility",
+    "action": "Open Shortcut Finder app",
+    "keysRaw": "Cmd+Ctrl+K",
+    "win": "Cmd+Ctrl+K",
+    "mac": "Cmd+Ctrl+K",
+    "description": "This is the command to open up the app that you're using right now."
+  }
+]

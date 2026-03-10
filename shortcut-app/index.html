@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shortcut Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="main-view">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for 'Copy', 'Cmd+C'..." autofocus>
+            <button id="show-add-btn" title="Add Custom Shortcut">+</button>
+        </div>
+        <div id="results"></div>
+    </div>
+
+    <div class="container hidden" id="add-view">
+        <div class="add-header">Add Custom Shortcut</div>
+        <div class="add-form">
+            <input type="text" id="add-action" placeholder="Action (e.g., Open Shortcut Finder)">
+            <input type="text" id="add-mac" placeholder="Mac Shortcut (e.g., Cmd+Ctrl+K)">
+            <input type="text" id="add-win" placeholder="Windows Shortcut (e.g., Ctrl+Win+K)">
+            <input type="text" id="add-category" placeholder="Category (e.g., Global Apps)">
+            <textarea id="add-desc" placeholder="Description..."></textarea>
+            <div class="add-buttons">
+                <button id="cancel-add-btn">Cancel</button>
+                <button id="save-add-btn">Save Shortcut</button>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
